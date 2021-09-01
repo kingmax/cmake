@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial
+#define Step2_VERSION_MAJOR @Step2_VERSION_MAJOR@
+#define Step2_VERSION_MINOR @Step2_VERSION_MINOR@
+#cmakedefine USE_MYMATH
