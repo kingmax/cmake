@@ -6,13 +6,14 @@ project(hello_static_lib)
 # Create a library
 ############################################################
 # Generate the static library from the source sources
-add_library(hello_library STATIC
+add_library(hello_library 
+	STATIC
 		src/hello.cpp
 )
 
 target_include_directories(hello_library
 	PUBLIC
-		${PROJECT_SOURCE_DIR}/src/include
+		src/include
 )
 
 ############################################################
